@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity2"
+    android:orientation="vertical"
+    android:padding="40dp"
+    android:gravity="center_vertical"
+    android:background="@color/white">
+
+    <TableLayout
+        android:padding="20dp"
+        android:background="#E3E3E3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        >
+        <TableRow>
+            <TextView
+                android:textColor="@color/black"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Product Bill"
+                android:textSize="25dp"/>
+        </TableRow>
+
+        <TableRow
+            android:layout_marginTop="30dp">
+            <TextView
+                android:textColor="@color/black"
+                android:id="@+id/pdtTV"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:hint="Product Name"
+                android:textSize="16dp"/>
+        </TableRow>
+
+        <TableRow>
+            <TextView
+                android:textColor="@color/black"
+                android:id="@+id/priceTV"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:hint="Product Price"
+                android:textSize="16dp"/>
+        </TableRow>
+
+        <TableRow>
+            <TextView
+                android:textColor="@color/black"
+                android:id="@+id/qtyTV"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:hint="Product Quantity"
+                android:textSize="16dp"/>
+        </TableRow>
+
+        <TableRow>
+            <TextView
+                android:textColor="@color/black"
+                android:id="@+id/totalTV"
+                android:layout_marginTop="15dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:hint="Total Amount"
+                android:textSize="30dp"/>
+        </TableRow>
+    </TableLayout>
+
+</LinearLayout>

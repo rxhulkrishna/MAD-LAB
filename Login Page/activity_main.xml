@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+
+    <TableLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="150dp">
+
+        <TableRow
+            android:gravity="center_horizontal">
+            <TextView
+                android:id="@+id/textView"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="LOGIN PAGE"
+                android:textStyle="bold"
+                android:textColor="#8C9EFF"
+                android:textSize="25dp"
+                android:layout_marginVertical="30dp"/>
+        </TableRow>
+
+        <TableRow
+            android:gravity="center">
+            <EditText
+                android:id="@+id/uname"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:inputType="text"
+                android:text="Enter username" />
+
+        </TableRow>
+
+        <TableRow
+            android:gravity="center">
+            <EditText
+                android:id="@+id/pass"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:text="password"
+                android:inputType="textPassword" />
+        </TableRow>
+
+        <TableRow
+            android:gravity="center"
+            android:layout_marginVertical="20dp">
+            <Button
+                android:id="@+id/loginButton"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Login" />
+        </TableRow>
+    </TableLayout>
+</LinearLayout>

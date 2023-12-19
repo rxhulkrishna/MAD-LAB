@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center_horizontal"
+    tools:context=".MainActivity2">
+
+
+    <TextView
+        android:id="@+id/title"
+        android:layout_marginTop="150dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Bank Account"
+        android:textAllCaps="true"
+        android:textSize="30dp"/>
+
+    <TextView
+        android:layout_marginTop="30dp"
+        android:id="@+id/unameTV"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="20dp"
+        android:text="Userid : " />
+
+    <TextView
+        android:id="@+id/balTV"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="20dp"
+        android:text="Balance : " />
+
+    <Button
+        android:id="@+id/depositBtn"
+        android:layout_marginTop="50dp"
+        android:layout_width="120dp"
+        android:layout_height="wrap_content"
+        android:text="Deposit" />
+
+    <Button
+        android:id="@+id/withdrawBtn"
+        android:layout_width="120dp"
+        android:layout_height="wrap_content"
+        android:text="Withdraw" />
+
+</LinearLayout>
